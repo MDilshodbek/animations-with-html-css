@@ -1,0 +1,25 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blok {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  transition: height 1s;
+  margin: auto;
+  margin-top: 50px;
+}
+.blok:hover {
+  top: -10px;
+}
